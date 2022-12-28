@@ -1,0 +1,54 @@
+/*
+ * test.c
+ *
+ *  Created on: Dec 26, 2022
+ *      Author: abdelrahman
+ */
+
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main()
+{
+    DDRA &= (~(1 << PA0)) & (~(1 << PA1));
+    DDRC |= ((1 << PC0)) | ((1 << PC1)) | ((1 << PC2)) | ((1 << PC3));
+    DDRB |= ((1 << PD0)) | ((1 << PD1)) | ((1 << PD2));
+    unsigned char x = 0;
+    int counter = 0;
+    PORTC = 0;
+    PORTB = 0;
+    PORTA = 0;
+
+    while (1)
+    {
+        x = PINA;
+        if (x & (1 << PA0))
+        {
+            if (counter < 8)
+            {
+                counter++;
+            }
+        }
+        else if (x & (1 << PA1))
+        {
+            if (counter = 0)
+            {
+                counter--;
+            }
+        }
+        PORTC = counter;
+        if (counter == 0)
+        {
+            PORTB = (1 << PB2);
+        }
+        else if (counter == 7)
+        {
+            PORTB = (1 << PB1);
+        }
+        else
+        {
+            PORTB = (1 << PB0);
+        }
+    }
+}

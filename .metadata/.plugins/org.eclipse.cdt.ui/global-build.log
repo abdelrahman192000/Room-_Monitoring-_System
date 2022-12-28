@@ -1,0 +1,2498 @@
+21:11:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     310 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:22 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     310 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:36: error: redefinition of '__vector_1'
+../main.c:16: error: previous definition of '__vector_1' was here
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:30 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     470 bytes (1.4% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     470 bytes (1.4% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:20 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     470 bytes (1.4% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:18:43 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     616 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:20:03 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     616 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:31:53 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     644 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:18 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     658 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:30 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     644 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:34:31 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     616 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:44:38 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:94: error: called object '8' is not a function
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:44:49 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     630 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:46:55 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     644 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:47:28 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     644 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:47:38 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     646 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:47:56 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     644 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:49:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     652 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:52:06 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     650 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:14:49 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     650 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:16:15 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     440 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:17:38 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     490 bytes (1.5% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:18:10 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     536 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:18:57 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     536 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:20:50 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     536 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:21:56 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:22:38 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     612 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:22:57 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function '__vector_1':
+../main.c:21: warning: comparisons like X<=Y<=Z do not have their mathematical meaning
+../main.c: In function '__vector_2':
+../main.c:50: warning: comparisons like X<=Y<=Z do not have their mathematical meaning
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     584 bytes (1.8% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:23:16 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     636 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:23:33 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     636 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:24:17 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     640 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:24:40 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     636 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:25:14 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     440 bytes (1.3% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:33 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:27:16 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:27:29 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:27:54 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     526 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:52 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3666 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:11 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3666 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:43 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4012 bytes (12.2% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:16 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4024 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:57 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4036 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:19 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4492 bytes (13.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:33:33 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4502 bytes (13.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:34:34 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4046 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:35:29 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4010 bytes (12.2% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:38:43 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4022 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:38:45 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4022 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:46:00 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4052 bytes (12.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:46:55 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4022 bytes (12.3% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:47:55 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4064 bytes (12.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:51:34 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4108 bytes (12.5% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:54:05 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:56 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:56:45 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4150 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:56:52 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4150 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:00 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4136 bytes (12.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:24 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4108 bytes (12.5% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:59:20 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:00:09 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:01:36 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:02:09 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:22:28 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:00 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building file: ../test.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+In file included from ../test.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../test.c: In function 'main':
+../test.c:35: warning: suggest parentheses around assignment used as truth value
+Finished building: ../test.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o ./test.o   
+./test.o: In function `main':
+../test.c:13: multiple definition of `main'
+./main.o:../main.c:19: first defined here
+make: *** [Room_Monitoring_System.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:46:31 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o ./test.o   
+./test.o: In function `main':
+../test.c:13: multiple definition of `main'
+./main.o:../main.c:19: first defined here
+make: *** [Room_Monitoring_System.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:42:14 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:44:16 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:44:50 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:45:22 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:54:39 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:21: error: 'number' undeclared (first use in this function)
+../main.c:21: error: (Each undeclared identifier is reported only once
+../main.c:21: error: for each function it appears in.)
+../main.c: In function '__vector_2':
+../main.c:42: error: 'number' undeclared (first use in this function)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:54:54 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:21: error: 'number' undeclared (first use in this function)
+../main.c:21: error: (Each undeclared identifier is reported only once
+../main.c:21: error: for each function it appears in.)
+../main.c: In function '__vector_2':
+../main.c:42: error: 'number' undeclared (first use in this function)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:55:33 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:21: error: 'number' undeclared (first use in this function)
+../main.c:21: error: (Each undeclared identifier is reported only once
+../main.c:21: error: for each function it appears in.)
+../main.c: In function '__vector_2':
+../main.c:42: error: 'number' undeclared (first use in this function)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:55:35 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:21: error: 'number' undeclared (first use in this function)
+../main.c:21: error: (Each undeclared identifier is reported only once
+../main.c:21: error: for each function it appears in.)
+../main.c: In function '__vector_2':
+../main.c:42: error: 'number' undeclared (first use in this function)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:48:34 **** Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:21: error: 'number' undeclared (first use in this function)
+../main.c:21: error: (Each undeclared identifier is reported only once
+../main.c:21: error: for each function it appears in.)
+../main.c: In function '__vector_2':
+../main.c:42: error: 'number' undeclared (first use in this function)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:48:49 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:57 **** Incremental Build of configuration Debug for project Room_Monitoring_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Room_Monitoring_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Room_Monitoring_System.map -mmcu=atmega32 -o "Room_Monitoring_System.elf"  ./main.o   
+Finished building target: Room_Monitoring_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Room_Monitoring_System.elf  >"Room_Monitoring_System.lss"
+Finished building: Room_Monitoring_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Room_Monitoring_System.elf  "Room_Monitoring_System.hex"
+Finished building: Room_Monitoring_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Room_Monitoring_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4164 bytes (12.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
